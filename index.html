@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Content Security Policy that allows 'unsafe-eval' and includes external sources -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' https://accounts.scdn.co https://sdk.scdn.co;">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techover Self Made - Spotify</title>
+  </head>
+  <body>
+    <!-- Include Spotify Player SDK -->
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <div id="root"></div>
+    <!-- Include your main app script -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
